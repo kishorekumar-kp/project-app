@@ -1,0 +1,39 @@
+nav{
+    background-color: rgb(107, 107, 249);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.logo{
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: 30px;
+  
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    text-align: center;
+    margin-right: 30px;
+    
+}
+.links{
+    text-decoration: none;
+    padding: 10px 45px;
+    color:#fff;
+
+}
+.links:hover{
+    color: rgb(1, 28, 28);
+    background-color: rgb(1, 109, 109);
+    border-radius: 3px;
+    transition: all .2s ease-out;
+}
